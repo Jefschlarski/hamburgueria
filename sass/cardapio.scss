@@ -1,0 +1,192 @@
+.headerCardapio{
+        height: 90px;
+        width: 100%;
+        position: absolute;
+        backdrop-filter: blur(0px) saturate(0%);
+        -webkit-backdrop-filter: blur(0px) saturate(0%);
+        background-color: $nav-color;
+        font-weight: bold;
+        font-size: 12px;
+        
+        nav{
+            margin-top: -8px;
+            margin-bottom: -10px;
+        }
+        #nav-hover{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            height: 80px;
+            color: white;
+            font-size: 20px;
+            transition: 1s;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+
+    #paddingDiv{
+        padding-top: 10%;
+    }
+
+    .menuHover{
+        text-shadow: black 2px 1px;
+    }
+    .ulEdit{
+        display: flex;
+        justify-content: center;
+    }
+    .liEdit{
+        list-style: none
+    }
+    .btnEdit{
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        padding: 0px 20px;
+        background-color: transparent;
+        border: none;
+        transition: 1s;
+        &:hover{
+            color: #f48433;
+        }
+    }
+    @mixin col-set($margin-right, $width, $cursor , $background-image){
+      margin-right: $margin-right;
+      width: $width;
+      cursor: $cursor;
+      background-image: $background-image;
+
+    }
+    .col01{
+        @include col-set(4px, 100vh, pointer, url(../imgs/hamburguer4.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+    .col02{
+      @include col-set(4px, 100vh, pointer, url(../imgs/hamburguer4.jpg));
+      &:hover{
+        background-size: 120%;
+      }
+    }
+    .col03{
+      @include col-set(0px, 100vh, pointer, url(../imgs/hamburguer4.jpg));
+      &:hover{
+        background-size: 120%;
+      }
+    }
+    
+    .col04{
+      @include col-set(4px, 100vh, pointer, url(../imgs/hamburguer4.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+    
+    .col05{
+      @include col-set(4px, 100vh, pointer, url(../imgs/hamburguer4.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+     
+    .col06{
+      @include col-set(0px, 100vh, pointer, url(../imgs/hamburguer4.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+    
+    .col07{
+        @include col-set(4px, 100vh, pointer, url(../imgs/agua.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+      
+    .col08{
+      @include col-set(4px, 100vh, pointer, url(../imgs/agua.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+      
+    .col09{
+      @include col-set(0px, 100vh, pointer, url(../imgs/agua.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+      
+    .col10{
+      @include col-set(4px, 100vh, pointer, url(../imgs/agua.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+      
+    .col11{
+      @include col-set(4px, 100vh, pointer, url(../imgs/agua.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+      
+    .col12{
+      @include col-set(0px, 100vh, pointer, url(../imgs/agua.jpg));
+        &:hover{
+          background-size: 120%;
+        }
+      }
+    
+    .col13{
+        @include col-set(4px, 100vh, pointer, url(../imgs/batata.jpg));
+          &:hover{
+            background-size: 120%;
+          }
+        }
+
+    .col14{
+        @include col-set(4px, 100vh, pointer, url(../imgs/batata.jpg));
+          &:hover{
+            background-size: 120%;
+          }
+        }
+
+    .col15{
+        @include col-set(0px, 100vh, pointer, url(../imgs/batata.jpg));
+          &:hover{
+            background-size: 120%;
+          }
+         }
+    
+    .col16{
+          @include col-set(4px, 100vh, pointer, url(../imgs/batata.jpg));
+            &:hover{
+              background-size: 120%;
+            }
+          }
+  
+    .col17{
+          @include col-set(4px, 100vh, pointer, url(../imgs/batata.jpg));
+            &:hover{
+              background-size: 120%;
+            }
+          }
+  
+    .col18{
+          @include col-set(0px, 100vh, pointer, url(../imgs/batata.jpg));
+            &:hover{
+              background-size: 120%;
+            }
+           }
+      
+    .col00{
+        min-height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }

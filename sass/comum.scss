@@ -1,0 +1,173 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(0px) saturate(0%);
+    -webkit-backdrop-filter: blur(0px) saturate(0%);
+    background-color: $nav-color;
+    font-weight: bold;
+    font-size: 12px;
+    
+    nav{
+        margin-top: -8px;
+        margin-bottom: -10px;
+    }
+    #nav-hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        height: 80px;
+        color: white;
+        font-size: 20px;
+        transition: 1s;
+        &:hover{
+            color: black;
+        }
+    }
+}
+.navEditItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    text-align: center;
+    width: 100%;
+    transition: 1s;
+    &:hover{
+        background-color: white;
+        
+    }
+}
+
+.collapseMedia{
+    padding-left: 20px ;
+    margin-right: 10px;
+}
+.ulContainer{
+    width: 100%;
+}
+.container01,
+.container02{
+    margin-right: 4px;
+    width: 100vh;
+    background-image: url(../imgs/hamburguer2.webp);
+    transition: 0.5s;
+    cursor:pointer;
+    &:hover{
+        width: 200vh;
+    }
+}
+.container03{
+    width: 100vh;
+    background-image: url(../imgs/hamburguer2.webp);
+    transition: 0.5s;
+    cursor:pointer;
+    &:hover{
+        width: 200vh;
+    }
+}
+.container00{
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logoPc{
+    width: 80px;
+    margin-top: -5px;
+}
+
+#button{
+    padding: $padding-btn;
+    border: 2px white solid;
+}
+
+.footer{
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+
+        &:hover{
+            color: $link-hover;
+        }
+    }
+}
+
+.copy{
+    color: $copy-color
+}
+
+//media query
+
+@media (max-width:993px){
+   .header{
+    
+    background-color: #721a1a;
+        nav{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+   }
+   
+   .navEditItem{
+    height: 100px;
+    width: 100%;
+    &:hover{
+        background-color: none;
+        
+    }
+}
+   .collapseMedia{
+    padding-left: 0px;
+    margin-right: 0px;
+    height: 100vh;
+    display: flex;
+    background-color: #721a1a;
+}
+
+}
+
+@media (max-width:405px){
+    .logoPc{
+        width: 180px;
+        margin-top: 10px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:350px){
+    .logoPc{
+        width: 150px;
+        margin-top: 15px;
+    }
+    .footer{
+        display: grid;
+        text-align: center;
+    }
+}
+
+@media(max-width:310px){
+    .logoPc{
+       width: 100vh;
+       padding-left: 30px;
+       margin-bottom: 10px;
+    }
+}

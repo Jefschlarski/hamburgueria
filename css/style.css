@@ -1,0 +1,541 @@
+.textoNav {
+  padding-top: 10px;
+  text-align: center;
+}
+.textoNav h3 {
+  margin-top: -20px;
+}
+
+.textoLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittlePadding {
+  padding: 200px 0px 0px 0px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.mediumTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 750px) {
+  .tittlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+  }
+}
+.textoNav {
+  padding-top: 10px;
+  text-align: center;
+}
+.textoNav h3 {
+  margin-top: -20px;
+}
+
+.textoLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittlePadding {
+  padding: 200px 0px 0px 0px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.mediumTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 750px) {
+  .tittlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+  }
+}
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  backdrop-filter: blur(0px) saturate(0%);
+  -webkit-backdrop-filter: blur(0px) saturate(0%);
+  background-color: rgba(255, 0, 0, 0.4);
+  font-weight: bold;
+  font-size: 12px;
+}
+.header nav {
+  margin-top: -8px;
+  margin-bottom: -10px;
+}
+.header #nav-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+  transition: 1s;
+}
+.header #nav-hover:hover {
+  color: black;
+}
+
+.navEditItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  text-align: center;
+  width: 100%;
+  transition: 1s;
+}
+.navEditItem:hover {
+  background-color: white;
+}
+
+.collapseMedia {
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+.ulContainer {
+  width: 100%;
+}
+
+.container01,
+.container02 {
+  margin-right: 4px;
+  width: 100vh;
+  background-image: url(../imgs/hamburguer2.webp);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container01:hover,
+.container02:hover {
+  width: 200vh;
+}
+
+.container03 {
+  width: 100vh;
+  background-image: url(../imgs/hamburguer2.webp);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container03:hover {
+  width: 200vh;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logoPc {
+  width: 80px;
+  margin-top: -5px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px white solid;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #ebd5d5;
+}
+
+.copy {
+  color: rgba(153, 153, 153, 0.6);
+}
+
+@media (max-width: 993px) {
+  .header {
+    background-color: #721a1a;
+  }
+  .header nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .navEditItem {
+    height: 100px;
+    width: 100%;
+  }
+  .navEditItem:hover {
+    background-color: none;
+  }
+  .collapseMedia {
+    padding-left: 0px;
+    margin-right: 0px;
+    height: 100vh;
+    display: flex;
+    background-color: #721a1a;
+  }
+}
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 10px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+  .footer {
+    display: grid;
+    text-align: center;
+  }
+}
+@media (max-width: 310px) {
+  .logoPc {
+    width: 100vh;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+}
+.headerCardapio {
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  backdrop-filter: blur(0px) saturate(0%);
+  -webkit-backdrop-filter: blur(0px) saturate(0%);
+  background-color: rgba(255, 0, 0, 0.4);
+  font-weight: bold;
+  font-size: 12px;
+}
+.headerCardapio nav {
+  margin-top: -8px;
+  margin-bottom: -10px;
+}
+.headerCardapio #nav-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+  transition: 1s;
+}
+.headerCardapio #nav-hover:hover {
+  color: black;
+}
+
+#paddingDiv {
+  padding-top: 10%;
+}
+
+.menuHover {
+  text-shadow: black 2px 1px;
+}
+
+.ulEdit {
+  display: flex;
+  justify-content: center;
+}
+
+.liEdit {
+  list-style: none;
+}
+
+.btnEdit {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  padding: 0px 20px;
+  background-color: transparent;
+  border: none;
+  transition: 1s;
+}
+.btnEdit:hover {
+  color: #f48433;
+}
+
+.col01 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/hamburguer4.jpg);
+}
+.col01:hover {
+  background-size: 120%;
+}
+
+.col02 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/hamburguer4.jpg);
+}
+.col02:hover {
+  background-size: 120%;
+}
+
+.col03 {
+  margin-right: 0px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/hamburguer4.jpg);
+}
+.col03:hover {
+  background-size: 120%;
+}
+
+.col04 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/hamburguer4.jpg);
+}
+.col04:hover {
+  background-size: 120%;
+}
+
+.col05 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/hamburguer4.jpg);
+}
+.col05:hover {
+  background-size: 120%;
+}
+
+.col06 {
+  margin-right: 0px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/hamburguer4.jpg);
+}
+.col06:hover {
+  background-size: 120%;
+}
+
+.col07 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/agua.jpg);
+}
+.col07:hover {
+  background-size: 120%;
+}
+
+.col08 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/agua.jpg);
+}
+.col08:hover {
+  background-size: 120%;
+}
+
+.col09 {
+  margin-right: 0px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/agua.jpg);
+}
+.col09:hover {
+  background-size: 120%;
+}
+
+.col10 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/agua.jpg);
+}
+.col10:hover {
+  background-size: 120%;
+}
+
+.col11 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/agua.jpg);
+}
+.col11:hover {
+  background-size: 120%;
+}
+
+.col12 {
+  margin-right: 0px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/agua.jpg);
+}
+.col12:hover {
+  background-size: 120%;
+}
+
+.col13 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/batata.jpg);
+}
+.col13:hover {
+  background-size: 120%;
+}
+
+.col14 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/batata.jpg);
+}
+.col14:hover {
+  background-size: 120%;
+}
+
+.col15 {
+  margin-right: 0px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/batata.jpg);
+}
+.col15:hover {
+  background-size: 120%;
+}
+
+.col16 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/batata.jpg);
+}
+.col16:hover {
+  background-size: 120%;
+}
+
+.col17 {
+  margin-right: 4px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/batata.jpg);
+}
+.col17:hover {
+  background-size: 120%;
+}
+
+.col18 {
+  margin-right: 0px;
+  width: 100vh;
+  cursor: pointer;
+  background-image: url(../imgs/batata.jpg);
+}
+.col18:hover {
+  background-size: 120%;
+}
+
+.col00 {
+  min-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sobreTitle {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  background-image: url(../imgs/sobre-title-wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sobreContent {
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../imgs/white-texture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sobreContent img {
+  max-width: 50%;
+}
+
+@media (max-width: 1200px) {
+  .sobreContent {
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
+  .sobreContent img {
+    max-width: 60%;
+  }
+  .sobreText {
+    text-align: center;
+  }
+}
+.sobreText {
+  width: 80vh;
+}
+.sobreText h5 {
+  color: black;
+  padding-bottom: 5px;
+}
+.sobreText h1 {
+  color: red;
+  padding-bottom: 20px;
+}
+.sobreText p {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

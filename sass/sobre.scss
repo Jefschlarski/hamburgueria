@@ -1,0 +1,60 @@
+.sobreTitle{
+    height: 55vh;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    background-image: url(../imgs/sobre-title-wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sobreContent{
+    height: 75vh;
+    display: flex;
+    flex-direction: row  ;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../imgs/white-texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    img{
+        max-width: 50%;
+    }
+}
+
+
+@media (max-width:1200px){
+    .sobreContent{
+        flex-direction: column-reverse;
+        height: 100vh;
+
+        img{
+            max-width: 60%;
+        }
+    }
+
+    .sobreText{
+        text-align: center;
+    }
+}
+
+.sobreText{
+    width: 80vh;
+    h5{
+        color: black;
+        padding-bottom: 5px;
+    }
+
+    h1{
+        color: red;
+        padding-bottom: 20px;
+    }
+
+    p{
+        color: black;
+    }
+
+}
